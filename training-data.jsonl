@@ -1,133 +1,14 @@
-{"prompt": "Create the CRUD for the Post model using Node.js, Express, and Prisma as a Backend Developer", "completion": [
-    {"title": "Define the Post model schema in Prisma"},
-    {"title": "Run Prisma migration to update the Postgres database"},
-    {"title": "Implement the Create Post endpoint in Express"},
-    {"title": "Implement input validation for the Create Post endpoint"},
-    {"title": "Implement the Read Post(s) endpoint in Express"},
-    {"title": "Add pagination support for the Read Post(s) endpoint"},
-    {"title": "Implement the Update Post endpoint in Express"},
-    {"title": "Implement input validation for the Update Post endpoint"},
-    {"title": "Implement the Delete Post endpoint in Express"},
-    {"title": "Implement error handling for all CRUD endpoints"},
-    {"title": "Write unit tests for the Post model CRUD operations"},
-    {"title": "Write integration tests for the Post CRUD endpoints"},
-    {"title": "Set up logging for the CRUD operations"},
-    {"title": "Implement authentication middleware for protected endpoints"},
-    {"title": "Document the API endpoints using Swagger or a similar tool"}
-]}
-{"prompt": "Set up a user authentication system using Node.js, Express, and Prisma as a Backend Developer", "completion": [
-    {"title": "Define the User model schema in Prisma"},
-    {"title": "Run Prisma migration to update the Postgres database with the User model"},
-    {"title": "Implement user registration endpoint in Express"},
-    {"title": "Implement input validation for user registration"},
-    {"title": "Implement user login endpoint in Express"},
-    {"title": "Set up JWT token generation for authentication"},
-    {"title": "Implement middleware to validate JWT tokens"},
-    {"title": "Create endpoints for password reset and email verification"},
-    {"title": "Write unit tests for user authentication operations"},
-    {"title": "Write integration tests for authentication endpoints"},
-    {"title": "Set up security features like rate limiting and request validation"},
-    {"title": "Document authentication API endpoints"}
-]}
-{"prompt": "Implement a responsive navigation bar in React as a Frontend Developer", "completion": [
-    {"title": "Create a new React component for the navigation bar"},
-    {"title": "Use CSS or a CSS framework for responsive styling"},
-    {"title": "Implement dropdown menus for compact viewports"},
-    {"title": "Ensure accessibility standards are met"},
-    {"title": "Write unit tests for the navigation component"},
-    {"title": "Integrate the navigation bar into the main app layout"}
-]}
-{"prompt": "Develop a user dashboard feature using MERN stack as a Full Stack Developer", "completion": [
-    {"title": "Design a MongoDB schema for user data"},
-    {"title": "Create RESTful API endpoints in Express for user data retrieval and update"},
-    {"title": "Implement JWT-based user authentication"},
-    {"title": "Develop the frontend user dashboard in React"},
-    {"title": "Connect the React frontend with the backend using Axios or a similar library"},
-    {"title": "Implement state management using Redux or Context API"},
-    {"title": "Write integration tests for the entire dashboard feature"}
-]}
-{"prompt": "Create a REST API for a blog application using Django as a Backend Developer", "completion": [
-    {"title": "Set up a new Django project and app"},
-    {"title": "Design and implement models for blog posts and comments"},
-    {"title": "Create serializers for the blog and comment models"},
-    {"title": "Set up Django views and URL patterns for CRUD operations"},
-    {"title": "Implement user authentication and permissions"},
-    {"title": "Write unit tests for all API endpoints"},
-    {"title": "Document the API using tools like Swagger"}
-]}
-{"prompt": "Build a single-page application (SPA) using Vue.js as a Frontend Developer", "completion": [
-    {"title": "Initialize a new Vue.js project using Vue CLI"},
-    {"title": "Create Vue components for each major section of the application"},
-    {"title": "Use Vue Router for handling navigation"},
-    {"title": "Manage state using Vuex"},
-    {"title": "Integrate with a backend API for data retrieval and manipulation"},
-    {"title": "Ensure the application is mobile-responsive using CSS and media queries"},
-    {"title": "Write unit tests for Vue components"}
-]}
-{"prompt": "Implement users fetching in the UsersList component using React.js and TanStack Query as a Frontend Developer", "completion": [
-    {"title": "Install TanStack Query using npm or yarn"},
-    {"title": "Set up the QueryClient and QueryClientProvider at the root of your React application"},
-    {"title": "Create a custom hook using useQuery to fetch user data from the API"},
-    {"title": "Use the custom hook in the UsersList component to fetch and display user data"},
-    {"title": "Handle loading and error states in the UsersList component"},
-    {"title": "Optimize the query with configurations for caching and stale time"}
-]}
-{"prompt": "Implement a user search feature in a UserSearch component using React.js and TanStack Query as a Frontend Developer", "completion": [
-    {"title": "Create a UserSearch component with an input field for searching"},
-    {"title": "Use useQuery in conjunction with the search input to fetch data based on user input"},
-    {"title": "Implement debouncing for the search input to optimize API calls"},
-    {"title": "Display search results in a list format within the UserSearch component"},
-    {"title": "Handle no results found and error states"},
-    {"title": "Add search query parameters to the API call for dynamic searching"}
-]}
-{"prompt": "Implement pagination for user data in the UsersList component using React.js and TanStack Query as a Frontend Developer", "completion": [
-    {"title": "Modify the API call to support pagination parameters (like page number and page size)"},
-    {"title": "Use useQuery with page parameters to fetch paginated user data"},
-    {"title": "Implement UI controls for pagination (next, previous, page numbers)"},
-    {"title": "Handle the loading state between page navigations"},
-    {"title": "Cache different pages data using query caching"},
-    {"title": "Optimize the user experience with prefetching pages"}
-]}
-{"prompt": "Implement fetching detailed user information on clicking a user in the list using React.js and TanStack Query as a Frontend Developer", "completion": [
-    {"title": "Create a separate component to display detailed user information"},
-    {"title": "Use useQuery in the detail component to fetch data based on the selected user ID"},
-    {"title": "Implement a click handler in the UsersList component to set the selected user"},
-    {"title": "Pass the selected user ID as a prop to the detail component"},
-    {"title": "Display the detailed information in the new component on user selection"},
-    {"title": "Handle loading and error states for the detail fetching process"}
-]}
-{"prompt": "Implement an API endpoint to fetch user data in an Express.js application with MongoDB as a Backend Developer", "completion": [
-    {"title": "Set up a new Express.js route to handle GET requests for user data"},
-    {"title": "Create a MongoDB model for the user data"},
-    {"title": "Implement a controller function to retrieve user data from MongoDB"},
-    {"title": "Connect the controller with the Express.js route"},
-    {"title": "Handle error responses and edge cases like user not found"},
-    {"title": "Write unit tests for the API endpoint"}
-]}
-{"prompt": "Implement a user authentication system in a Node.js and Express.js application using JWT and MongoDB as a Backend Developer", "completion": [
-    {"title": "Install necessary packages like bcrypt and jsonwebtoken"},
-    {"title": "Create user schema and model in MongoDB with necessary fields"},
-    {"title": "Implement password hashing in the user model"},
-    {"title": "Develop a signup API endpoint to register new users"},
-    {"title": "Develop a login API endpoint that issues a JWT on successful authentication"},
-    {"title": "Implement middleware to verify JWT for protected routes"}
-]}
-{"prompt": "Implement pagination in a list API endpoint in an Express.js application with MongoDB as a Backend Developer", "completion": [
-    {"title": "Update the list API endpoint to accept pagination parameters like page and limit"},
-    {"title": "Modify the MongoDB query to fetch data according to pagination parameters"},
-    {"title": "Implement functionality to calculate and return total number of pages and records"},
-    {"title": "Handle edge cases like requesting a page number that doesn't exist"},
-    {"title": "Ensure the API is optimized for performance with large datasets"},
-    {"title": "Write tests to verify pagination functionality"}
-]}
-{"prompt": "Set up a logging middleware in an Express.js application as a Backend Developer", "completion": [
-    {"title": "Install a logging library like morgan or winston"},
-    {"title": "Create a middleware function to log requests and responses"},
-    {"title": "Integrate the middleware in the Express.js app to log all incoming requests"},
-    {"title": "Configure the logging format and output (e.g., console, file)"},
-    {"title": "Ensure error logging is detailed, including stack trace for debugging"},
-    {"title": "Test the logging setup to ensure it captures necessary information"}
-]}
-
-
-
+{"prompt": "Create the CRUD for the Post model using Node.js, Express, and Prisma as a Backend Developer", "completion": [{"title": "Define the Post model schema in Prisma"}, {"title": "Run Prisma migration to update the Postgres database"}, {"title": "Implement the Create Post endpoint in Express"}, {"title": "Implement input validation for the Create Post endpoint"}, {"title": "Implement the Read Post(s) endpoint in Express"}, {"title": "Add pagination support for the Read Post(s) endpoint"}, {"title": "Implement the Update Post endpoint in Express"}, {"title": "Implement input validation for the Update Post endpoint"}, {"title": "Implement the Delete Post endpoint in Express"}, {"title": "Implement error handling for all CRUD endpoints"}, {"title": "Write unit tests for the Post model CRUD operations"}, {"title": "Write integration tests for the Post CRUD endpoints"}, {"title": "Set up logging for the CRUD operations"}, {"title": "Implement authentication middleware for protected endpoints"}, {"title": "Document the API endpoints using Swagger or a similar tool"}]}
+{"prompt": "Set up a user authentication system using Node.js, Express, and Prisma as a Backend Developer", "completion": [{"title": "Define the User model schema in Prisma"}, {"title": "Run Prisma migration to update the Postgres database with the User model"}, {"title": "Implement user registration endpoint in Express"}, {"title": "Implement input validation for user registration"}, {"title": "Implement user login endpoint in Express"}, {"title": "Set up JWT token generation for authentication"}, {"title": "Implement middleware to validate JWT tokens"}, {"title": "Create endpoints for password reset and email verification"}, {"title": "Write unit tests for user authentication operations"}, {"title": "Write integration tests for authentication endpoints"}, {"title": "Set up security features like rate limiting and request validation"}, {"title": "Document authentication API endpoints"}]}
+{"prompt": "Implement a responsive navigation bar in React as a Frontend Developer", "completion": [{"title": "Create a new React component for the navigation bar"}, {"title": "Use CSS or a CSS framework for responsive styling"}, {"title": "Implement dropdown menus for compact viewports"}, {"title": "Ensure accessibility standards are met"}, {"title": "Write unit tests for the navigation component"}, {"title": "Integrate the navigation bar into the main app layout"}]}
+{"prompt": "Develop a user dashboard feature using MERN stack as a Full Stack Developer", "completion": [{"title": "Design a MongoDB schema for user data"}, {"title": "Create RESTful API endpoints in Express for user data retrieval and update"}, {"title": "Implement JWT-based user authentication"}, {"title": "Develop the frontend user dashboard in React"}, {"title": "Connect the React frontend with the backend using Axios or a similar library"}, {"title": "Implement state management using Redux or Context API"}, {"title": "Write integration tests for the entire dashboard feature"}]}
+{"prompt": "Create a REST API for a blog application using Django as a Backend Developer", "completion": [{"title": "Set up a new Django project and app"}, {"title": "Design and implement models for blog posts and comments"}, {"title": "Create serializers for the blog and comment models"}, {"title": "Set up Django views and URL patterns for CRUD operations"}, {"title": "Implement user authentication and permissions"}, {"title": "Write unit tests for all API endpoints"}, {"title": "Document the API using tools like Swagger"}]}
+{"prompt": "Build a single-page application (SPA) using Vue.js as a Frontend Developer", "completion": [{"title": "Initialize a new Vue.js project using Vue CLI"}, {"title": "Create Vue components for each major section of the application"}, {"title": "Use Vue Router for handling navigation"}, {"title": "Manage state using Vuex"}, {"title": "Integrate with a backend API for data retrieval and manipulation"}, {"title": "Ensure the application is mobile-responsive using CSS and media queries"}, {"title": "Write unit tests for Vue components"}]}
+{"prompt": "Implement users fetching in the UsersList component using React.js and TanStack Query as a Frontend Developer", "completion": [{"title": "Install TanStack Query using npm or yarn"}, {"title": "Set up the QueryClient and QueryClientProvider at the root of your React application"}, {"title": "Create a custom hook using useQuery to fetch user data from the API"}, {"title": "Use the custom hook in the UsersList component to fetch and display user data"}, {"title": "Handle loading and error states in the UsersList component"}, {"title": "Optimize the query with configurations for caching and stale time"}]}
+{"prompt": "Implement a user search feature in a UserSearch component using React.js and TanStack Query as a Frontend Developer", "completion": [{"title": "Create a UserSearch component with an input field for searching"}, {"title": "Use useQuery in conjunction with the search input to fetch data based on user input"}, {"title": "Implement debouncing for the search input to optimize API calls"}, {"title": "Display search results in a list format within the UserSearch component"}, {"title": "Handle no results found and error states"}, {"title": "Add search query parameters to the API call for dynamic searching"}]}
+{"prompt": "Implement pagination for user data in the UsersList component using React.js and TanStack Query as a Frontend Developer", "completion": [{"title": "Modify the API call to support pagination parameters (like page number and page size)"}, {"title": "Use useQuery with page parameters to fetch paginated user data"}, {"title": "Implement UI controls for pagination (next, previous, page numbers)"}, {"title": "Handle the loading state between page navigations"}, {"title": "Cache different pages data using query caching"}, {"title": "Optimize the user experience with prefetching pages"}]}
+{"prompt": "Implement fetching detailed user information on clicking a user in the list using React.js and TanStack Query as a Frontend Developer", "completion": [{"title": "Create a separate component to display detailed user information"}, {"title": "Use useQuery in the detail component to fetch data based on the selected user ID"}, {"title": "Implement a click handler in the UsersList component to set the selected user"}, {"title": "Pass the selected user ID as a prop to the detail component"}, {"title": "Display the detailed information in the new component on user selection"}, {"title": "Handle loading and error states for the detail fetching process"}]}
+{"prompt": "Implement an API endpoint to fetch user data in an Express.js application with MongoDB as a Backend Developer", "completion": [{"title": "Set up a new Express.js route to handle GET requests for user data"}, {"title": "Create a MongoDB model for the user data"}, {"title": "Implement a controller function to retrieve user data from MongoDB"}, {"title": "Connect the controller with the Express.js route"}, {"title": "Handle error responses and edge cases like user not found"}, {"title": "Write unit tests for the API endpoint"}]}
+{"prompt": "Implement a user authentication system in a Node.js and Express.js application using JWT and MongoDB as a Backend Developer", "completion": [{"title": "Install necessary packages like bcrypt and jsonwebtoken"}, {"title": "Create user schema and model in MongoDB with necessary fields"}, {"title": "Implement password hashing in the user model"}, {"title": "Develop a signup API endpoint to register new users"}, {"title": "Develop a login API endpoint that issues a JWT on successful authentication"}, {"title": "Implement middleware to verify JWT for protected routes"}]}
+{"prompt": "Implement pagination in a list API endpoint in an Express.js application with MongoDB as a Backend Developer", "completion": [{"title": "Update the list API endpoint to accept pagination parameters like page and limit"}, {"title": "Modify the MongoDB query to fetch data according to pagination parameters"}, {"title": "Implement functionality to calculate and return total number of pages and records"}, {"title": "Handle edge cases like requesting a page number that doesn't exist"}, {"title": "Ensure the API is optimized for performance with large datasets"}, {"title": "Write tests to verify pagination functionality"}]}
+{"prompt": "Set up a logging middleware in an Express.js application as a Backend Developer", "completion": [{"title": "Install a logging library like morgan or winston"}, {"title": "Create a middleware function to log requests and responses"}, {"title": "Integrate the middleware in the Express.js app to log all incoming requests"}, {"title": "Configure the logging format and output (e.g., console, file)"}, {"title": "Ensure error logging is detailed, including stack trace for debugging"}, {"title": "Test the logging setup to ensure it captures necessary information"}]}
